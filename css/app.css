@@ -1,0 +1,151 @@
+@import url('bootstrap.min.css');
+/*@import url('jquery-ui.min.css');*/
+@import url('ol.css');
+@import url('slick.css');
+@import url('font-awesome.min.css');
+
+html,body {
+    height:100%;
+}
+
+.mapcontainer {
+    top: 0px; 
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.h100p {
+    height:100%;
+}
+
+.w100p {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.mainview {
+    height: 100%;
+    /*height:calc(100% - 50px);*/
+    position: relative;
+}
+
+.controlview {
+    height:50px;
+}
+
+.mainview_2 {
+    height:calc(100% - 110px);
+}
+
+.controlview_2 {
+    height:110px;
+}
+
+.btn-container {
+    padding:10px; 
+}
+
+#info {
+    text-align:center;
+}
+
+.gps {
+    top: 65px;
+    left: .5em;
+}
+
+.ol-touch .gps {
+    top: 80px;
+}
+
+.home {
+    top: 95px;
+    left: .5em;
+}
+
+.ol-touch .home {
+    top: 110px;
+}
+
+.poi_img {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.poi_img img {
+    width:100%;
+    height:auto;
+    max-width:300px;
+    max-height:300px;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    margin: auto;
+    vertical-align: middle;/*IE7*/
+}
+
+.slick-box {
+    position: absolute;
+    bottom: .5em;
+    left: calc(50% - 90px);
+    width: 180px;
+    background-color: rgba(32,32,32,0.5);
+}
+
+.slick-item {
+    position: relative;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+}
+
+.slick-item img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 0;
+}
+
+.slick-item div {
+    position: absolute;
+    right: .5em;
+    bottom: .5em;
+    left: .5em;
+    margin: auto;
+    z-index: 1;
+    color: white;
+    background-color: rgba(32,32,32,0.5);
+}
+
+.ol-attribution {
+    bottom: calc(70px + .5em);
+}
+
+.ol-compass-fa {
+    -webkit-transform: rotate(-33deg);
+    -o-transform: rotate(-33deg);
+    transform: rotate(-33deg);
+}
+
+.ol-control.no_rotation button {
+    color: rgba(255,255,255,.7);
+    background-color: rgba(0,60,136,.2);
+}
+
+.ol-control.receiving_gps button {
+    color: rgba(255,255,255,.7);
+    background-color: rgba(0,60,136,.2);
+}
+
+.ol-control.no_rotation button:focus,.ol-control.no_rotation button:hover {
+    color: rgba(255,255,255,.7);
+    background-color: rgba(0,60,136,.2)
+}
+
